@@ -1,39 +1,55 @@
 <!DOCTYPE html>
+<!--http://www.firewatchgame.com/js/firewizard.js-->
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Pasco JS</title>
 </head>
 <body>
 <div id="main">
-  <div id="scoreboard-c">
-    <div id="winner"></div>
-    <div id="scoreboard">
-      <article score=0 >X: 0</article>
-      <aside score=0 >O: 0</aside>
+  <p id="current-time"></p>
+  <div id="clock">
+    <p class="h coordNSEV" id="h24">24</p>
+    <p class="h" id="h1">&nbsp;1</p>
+    <p class="h" id="h2">&nbsp;2</p>
+    <p class="h coordOTHER" id="h3">&nbsp;3</p>
+    <p class="h" id="h4">&nbsp;4</p>
+    <p class="h" id="h5">&nbsp;5</p>
+    <p class="h coordNSEV" id="h6">&nbsp;6</p>
+    <p class="h" id="h7">&nbsp;7</p>
+    <p class="h" id="h8">&nbsp;8</p>
+    <p class="h coordOTHER" id="h9">&nbsp;9</p>
+    <p class="h" id="h10">10</p>
+    <p class="h" id="h11">11</p>
+    <p class="h coordNSEV" id="h12">12</p>
+    <p class="h" id="h13">13</p>
+    <p class="h" id="h14">14</p>
+    <p class="h coordOTHER" id="h15">15</p>
+    <p class="h" id="h16">16</p>
+    <p class="h" id="h17">17</p>
+    <p class="h coordNSEV" id="h18">18</p>
+    <p class="h" id="h19">19</p>
+    <p class="h" id="h20">20</p>
+    <p class="h coordOTHER" id="h21">21</p>
+    <p class="h" id="h22">22</p>
+    <p class="h" id="h23">23</p>
+    <div class="h" id="hours-line"></div>
+    <div class="h" id="minutes-line"></div>
+    <div class="h" id="seconds-line"></div>
+    <div class="h" id="center-mask"></div>
+    <div id="alarm-cover">
+      <div id="input-container">
+        <input id="h-input"></input>
+        <input id="m-input"></input>
+        <div id="submit-button">+</div>
+      </div>
+      <div id="alarm-set">
+        Set Alarm
+      </div>
     </div>
-  </div>
-  <header>
-    <h1 id="title">Let the best Human win</h1>
-    <div id="button">RESET</div>
-  </header>
-  <div id="tic-tac-c">
-    <div state=""></div>
-    <div state=""></div>
-    <div state=""></div>
-    <div state=""></div>
-    <div state=""></div>
-    <div state=""></div>
-    <div state=""></div>
-    <div state=""></div>
-    <div state=""></div>
-  </div>
-  <div id="history-c">
+
   </div>
 </div>
-
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-  <script src="script.js">
-  </script>
+<script src="script.js"></script>
 </body>
 </html>
