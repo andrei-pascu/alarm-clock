@@ -71,7 +71,7 @@ body, html {
   transform:translateY(-27vh);
 }
 #h12 {
-  transform: translateY(27vh) ;
+  transform: translateY(26vh) ;
 }
 
 #h6 {
@@ -109,10 +109,10 @@ body, html {
   transform: rotate(135deg) translateY(-27vh) rotate(-135deg);
 }
 #h10 {
-  transform: rotate(150deg) translateY(-27vh) rotate(-150deg);
+  transform: rotate(150deg) translateY(-26vh) rotate(-150deg);
 }
 #h11 {
-  transform: rotate(165deg) translateY(-27vh) rotate(-165deg);
+  transform: rotate(165deg) translateY(-26vh) rotate(-165deg);
 }
 
 
@@ -122,19 +122,19 @@ body, html {
 
 
 #h13 {
-  transform: rotate(-165deg) translateY(-27vh) rotate(165deg);
+  transform: rotate(-165deg) translateY(-26vh) rotate(165deg);
 }
 #h14 {
-  transform: rotate(-150deg) translateY(-27vh) rotate(150deg);
+  transform: rotate(-150deg) translateY(-26vh) rotate(150deg);
 }
 #h15 {
-  transform: rotate(-135deg) translateY(-27vh) rotate(135deg);
+  transform: rotate(-135deg) translateY(-26vh) rotate(135deg);
 }
 #h16 {
-  transform: rotate(-120deg) translateY(-27vh) rotate(120deg);
+  transform: rotate(-120deg) translateY(-26vh) rotate(120deg);
 }
 #h17 {
-  transform: rotate(-105deg) translateY(-27vh) rotate(105deg);
+  transform: rotate(-105deg) translateY(-26vh) rotate(105deg);
 }
 
 
