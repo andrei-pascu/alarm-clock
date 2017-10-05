@@ -13,7 +13,7 @@ function triggerAlarm() {
     document.getElementById('seconds-line').style['transform'] = 'rotate('+ ((seconds*6) - 180)  +'deg)';
     if ( (hours == alarmHour) && (minutes == alarmMinute)) {
       // alert('WAKE THE FUCK UP');
-      window.open('https://www.youtube.com/watch?v=lTs6a0ORdQU');
+      window.open('https://www.youtube.com/watch?v=uwI1zkBNGa8');
       alarmHour = alarmMinute = 0;
     }
   }
